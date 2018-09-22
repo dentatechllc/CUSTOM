@@ -1,1 +1,4 @@
-
+curl -X POST https://connect.stripe.com/oauth/token \
+-d client_secret=sk_test_SrYjkqsQGmTC6jzyjA4XoLpZ \
+-d code=ac_DeDa1tC4380ysrVkV12ACQ5jeXWWGlOI \
+-d grant_type=authorization_code
